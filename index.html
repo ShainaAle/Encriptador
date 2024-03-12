@@ -5,25 +5,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
         <title>Encriptador Alura</title>
-        <link rel="stylesheet" href="reset.css"
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
             <div class="caja">
-                <h1><img src="images/Floral A.jpg"></h1>
+                <h1><img class="letraA" src="images/La M.png"></h1>
                 <nav>
                     <ul>
-                        <button onclick="encriptar();" class="container__boton">Encriptar</button>
-                        <button onclick="desencriptar();" class="container__boton">Desencriptar</button>
+                        <li><button onclick="encriptar();" class="container__boton">Encriptar</button></li>
+                        <li><button onclick="desencriptar();" class="container__boton" disabled>Desencriptar</button></li>
                     </ul>
                 </nav>
             </div>
         </header>
-    </body>
 
-    <footer>
-        <p class="datos"> Shaina Alexandra Xochitiotzi Rojas </p>
-    </footer>
+        <main>
+            <input type="text" id="texto" required placeholder="Inserte texto">
+        
+            <div class="advertencia">
+                <label for="mensaje1">Solo letras minúsculas y sin acentos</label>
+            </div>
+        </main>
+
+        <footer>
+            <p class="datos"> Shaina Alexandra Xochitiotzi Rojas </p>
+        </footer>
+
+    </body>
 </html>

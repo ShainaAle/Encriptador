@@ -1,0 +1,18 @@
+header {
+    background-color: #F7418F;
+    padding: 20px 0;
+}
+
+body {
+    background-color: #FFF3C7;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.letraA {
+    width: 10%;
+}
