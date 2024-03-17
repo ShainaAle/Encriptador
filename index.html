@@ -11,28 +11,42 @@
 
     <body>
         <header>
-            <div class="caja">
-                <h1><img class="letraA" src="images/La M.png"></h1>
+            <div class="titulo-container">
+                <img class="letraA" src="images/La M.png"> 
+                <label> Encriptador de texto </label>
+            </div>
+
+            <div class="caja">                
                 <nav>
                     <ul>
-                        <li><button onclick="encriptar();" class="container__boton">Encriptar</button></li>
-                        <li><button onclick="desencriptar();" class="container__boton" disabled>Desencriptar</button></li>
+                        <li><button onclick="convertirTexto();" class="container__boton">Encriptar</button></li>
+                        <li><button onclick="desconvertirTexto();" class="container__boton">Desencriptar</button></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
         <main>
-            <input type="text" id="texto" required placeholder="Inserte texto">
+            <!-- Este es un comentario en HTML -->
+            <h1><label>Inserte texto</label></h1>
+            <!-- <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>-->
+            <input type="string" id="mensaje" min="1" max="10" class="container__input">
         
             <div class="advertencia">
-                <label for="mensaje1">Solo letras minúsculas y sin acentos</label>
+                <label>Solo letras minúsculas y sin acentos</label>
             </div>
         </main>
 
+        <div class="container__texto">
+            <h1>Su texto cambiado es:</h1>
+            <p class="encriptado"></p>
+        </div>
+
         <footer>
-            <p class="datos"> Shaina Alexandra Xochitiotzi Rojas </p>
+            <h2> Shaina Alexandra Xochitiotzi Rojas </h2>
         </footer>
+
+        <script src="encriptador.js"></script>
 
     </body>
 </html>

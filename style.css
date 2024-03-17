@@ -3,16 +3,74 @@ header {
     padding: 20px 0;
 }
 
-body {
-    background-color: #FFF3C7;
-}
-
-.caja {
+.caja{
     width: 940px;
     position: relative;
     margin: 0 auto;
 }
 
+.titulo-container {
+    display: inline-block; 
+}
+
+header label {
+    font-size: 50px;
+}
+
+nav {
+    display: inline-block; /* Para que se alineen horizontalmente */
+    vertical-align: right; /* Alineación vertical al centro con la imagen */
+}
+
+nav ul {
+    list-style-type: none; /* Quitar los puntos de lista */
+    margin: 0; /* Eliminar el margen predeterminado */
+    padding: 0; /* Eliminar el relleno predeterminado */
+}
+
+nav li {
+    display: inline-block; /* Mostrar los elementos de navegación en línea */
+    margin-left: 15px; /* Agregar un espacio entre los botones */
+}
+
+nav button {
+    text-align: left;
+}
+
+body {
+    background-color: #FFF3C7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .letraA {
-    width: 8%;
+    width: 8%; /* Cambiado de 8% a auto para ajustar automáticamente al tamaño de la imagen */
+    display: inline-block; /* Para que la imagen flote a la izquierda */
+    vertical-align: middle; /* Alineación vertical al centro con el texto */
+}
+
+h1{
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer{
+    background-color: blanchedalmond;
+}
+
+.container__input {
+    width: 800px;
+    height: 300px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: none;
+    color: #890e56;
+    padding: 2rem;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
 }
