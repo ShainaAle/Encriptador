@@ -27,20 +27,31 @@
         </header>
 
         <main>
-            <!-- Este es un comentario en HTML -->
-            <h1><label>Inserte texto</label></h1>
-            <!-- <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>-->
-            <input type="string" id="mensaje" min="1" max="10" class="container__input">
-        
+            <!-- Titulos de los contenedores -->
+            <div class="contTitulos">
+                <nav>
+                    <ul>
+                        <li><h1><label>Inserte texto</label></h1>
+                        <li><h2></h2>Texto modificado</li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Aqui contenedores -->
+            <div class="contenedores">
+                <nav>
+                    <ul>
+                        <li><input type="string" id="mensaje" min="1" max="10" class="container__input"></li>
+                        <li><output type="string" id="cambio" min="1" max="10" class="container__input"></output></li>
+                    </ul>
+                </nav>
+            </div>
+            
+
             <div class="advertencia">
                 <label>Solo letras minúsculas y sin acentos</label>
             </div>
         </main>
-
-        <div class="container__texto">
-            <h1>Su texto cambiado es:</h1>
-            <p class="encriptado"></p>
-        </div>
 
         <footer>
             <h2> Shaina Alexandra Xochitiotzi Rojas </h2>

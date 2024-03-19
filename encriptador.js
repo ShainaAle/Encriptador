@@ -18,7 +18,7 @@ function convertirTexto() {
     textoX = textoX.replace(/a/g, "ai");
     textoX = textoX.replace(/o/g, "ober");
     textoX = textoX.replace(/u/g, "ufat");
-    asignarTextoElemento('p', textoX)
+    asignarTextoElemento('#cambio', textoX)
     return;
 }
 
@@ -30,7 +30,11 @@ function desconvertirTexto() {
     textoX = textoX.replace(/ober/g, "o");
     textoX = textoX.replace(/ufat/g, "u");
     console.log(textoX);
-    asignarTextoElemento('p', textoX)
+    asignarTextoElemento('#cambio', textoX)
     return;
+}
+
+function limpiarCaja(caja) {
+    document.querySelector(caja).value = '';
 }
 

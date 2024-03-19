@@ -1,5 +1,5 @@
 header {
-    background-color: #F7418F;
+    background-color: #E6A4B4;
     padding: 20px 0;
 }
 
@@ -11,6 +11,8 @@ header {
 
 .titulo-container {
     display: inline-block; 
+    font-size: 150px;
+    color: #891652;
 }
 
 header label {
@@ -19,7 +21,6 @@ header label {
 
 nav {
     display: inline-block; /* Para que se alineen horizontalmente */
-    vertical-align: right; /* Alineación vertical al centro con la imagen */
 }
 
 nav ul {
@@ -30,26 +31,22 @@ nav ul {
 
 nav li {
     display: inline-block; /* Mostrar los elementos de navegación en línea */
-    margin-left: 15px; /* Agregar un espacio entre los botones */
-}
-
-nav button {
-    text-align: left;
+    margin-left: 100px; /* Agregar un espacio entre los botones */
 }
 
 body {
-    background-color: #FFF3C7;
+    background-color: #FFF8E3;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .letraA {
     width: 8%; /* Cambiado de 8% a auto para ajustar automáticamente al tamaño de la imagen */
-    display: inline-block; /* Para que la imagen flote a la izquierda */
     vertical-align: middle; /* Alineación vertical al centro con el texto */
 }
 
-h1{
+.contTitulos{
     font-size: 30px;
+    color: #E6A4B4;
 }
 
 p {
@@ -60,15 +57,17 @@ p {
 
 footer{
     background-color: blanchedalmond;
+    width: 100%;
+    height: 88px;
 }
 
 .container__input {
-    width: 800px;
+    width: 400px;
     height: 300px;
     border-radius: 16px;
-    background-color: #FFF;
+    background-color: #F3D7CA;
     border: none;
-    color: #890e56;
+    color: #E6A4B4;
     padding: 2rem;
     font-size: 15px;
     font-weight: 700;
