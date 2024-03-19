@@ -12,8 +12,8 @@
     <body>
         <header>
             <div class="titulo-container">
-                <img class="letraA" src="images/La M.png"> 
-                <label> Encriptador de texto </label>
+                <img class="letraA" alt="Letra A" src="images/La M.png"> 
+                <h1> Encriptador de texto </h1>
             </div>
 
             <div class="caja">                
@@ -27,29 +27,20 @@
         </header>
 
         <main>
-            <!-- Titulos de los contenedores -->
-            <div class="contTitulos">
+            <div>
+                <label for="mensaje">Inserte texto</label>
+                <label for="text">Texto modificado</label>
                 <nav>
                     <ul>
-                        <li><h1><label>Inserte texto</label></h1>
-                        <li><h2></h2>Texto modificado</li>
-                    </ul>
-                </nav>
-            </div>
-            
-            <!-- Aqui contenedores -->
-            <div class="contenedores">
-                <nav>
-                    <ul>
-                        <li><input type="string" id="mensaje" min="1" max="10" class="container__input"></li>
-                        <li><output type="string" id="cambio" min="1" max="10" class="container__input"></output></li>
+                        <li><input type="text" id="mensaje" class="contenedores"></li>
+                        <li><output type="text" id="cambio" class="contenedores"></output></li>
                     </ul>
                 </nav>
             </div>
             
 
             <div class="advertencia">
-                <label>Solo letras minúsculas y sin acentos</label>
+                <p>Solo letras minúsculas y sin acentos</p>
             </div>
         </main>
 

@@ -4,15 +4,8 @@ function asignarTextoElemento(elemento, texto) {
     return;
 }
 
-function acentos(){
-    textoX = document.getElementById('mensaje').value;
-    return textoX;
-}
-
 function convertirTexto() {
-    // Convertir cada letra según las reglas especificadas
-    let textoX = "" + acentos();
-    //console.log(textoX);
+    textoX = document.getElementById('mensaje').value;
     textoX = textoX.replace(/e/g, "enter");
     textoX = textoX.replace(/i/g, "imes");
     textoX = textoX.replace(/a/g, "ai");
@@ -23,7 +16,7 @@ function convertirTexto() {
 }
 
 function desconvertirTexto() {
-    let textoX = "" + acentos();
+    textoX = document.getElementById('mensaje').value;
     textoX = textoX.replace(/enter/g, "e");
     textoX = textoX.replace(/imes/g, "i");
     textoX = textoX.replace(/ai/g, "a");
